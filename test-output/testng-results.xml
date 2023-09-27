@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-25T15:36:16 IST" name="Default suite" finished-at="2023-09-25T15:36:16 IST" duration-ms="69">
+    <groups>
+    </groups>
+    <test started-at="2023-09-25T15:36:16 IST" name="Default test" finished-at="2023-09-25T15:36:16 IST" duration-ms="69">
+      <class name="TestRail_TestNG.FaceBook_TestNG">
+        <test-method is-config="true" signature="createSuite(org.testng.ITestContext)[pri:0, instance:TestRail_TestNG.FaceBook_TestNG@130c12b7]" started-at="2023-09-25T15:36:14 IST" name="createSuite" finished-at="2023-09-25T15:36:16 IST" duration-ms="1800" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@35a9782c]]>
+              </value>
+            </param>
+          </params>
+          <exception class="com.gurock.testrail.APIException">
+            <message>
+              <![CDATA[TestRail API returned HTTP 400("Field :suite_id is a required field.")]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.gurock.testrail.APIException: TestRail API returned HTTP 400("Field :suite_id is a required field.")
+at com.gurock.testrail.APIClient.sendRequest(APIClient.java:296)
+at com.gurock.testrail.APIClient.sendPost(APIClient.java:132)
+at Base.BaseClass.createSuite(BaseClass.java:59)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.gurock.testrail.APIException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createSuite -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:TestRail_TestNG.FaceBook_TestNG@130c12b7]" started-at="2023-09-25T15:36:16 IST" name="LaunchApplication" finished-at="2023-09-25T15:36:16 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method is-config="true" signature="beforeTest(org.testng.ITestContext,java.lang.reflect.Method)[pri:0, instance:TestRail_TestNG.FaceBook_TestNG@130c12b7]" started-at="2023-09-25T15:36:16 IST" name="beforeTest" finished-at="2023-09-25T15:36:16 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="Title_Check()[pri:1, instance:TestRail_TestNG.FaceBook_TestNG@130c12b7]" started-at="2023-09-25T15:36:16 IST" name="Title_Check" finished-at="2023-09-25T15:36:16 IST" duration-ms="0" status="SKIP">
+          <exception class="com.gurock.testrail.APIException">
+            <message>
+              <![CDATA[TestRail API returned HTTP 400("Field :suite_id is a required field.")]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.gurock.testrail.APIException: TestRail API returned HTTP 400("Field :suite_id is a required field.")
+at com.gurock.testrail.APIClient.sendRequest(APIClient.java:296)
+at com.gurock.testrail.APIClient.sendPost(APIClient.java:132)
+at Base.BaseClass.createSuite(BaseClass.java:59)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.gurock.testrail.APIException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Title_Check -->
+        <test-method is-config="true" signature="afterTest(org.testng.ITestResult,org.testng.ITestContext)[pri:0, instance:TestRail_TestNG.FaceBook_TestNG@130c12b7]" started-at="2023-09-25T15:36:16 IST" name="afterTest" finished-at="2023-09-25T15:36:16 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:TestRail_TestNG.FaceBook_TestNG@130c12b7]" started-at="2023-09-25T15:36:16 IST" name="TearDown" finished-at="2023-09-25T15:36:16 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- TestRail_TestNG.FaceBook_TestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
